@@ -1,8 +1,8 @@
 ## I am Jesse
 
-You can use the [editor on GitHub](https://github.com/JesseFromPSU/JesseFromPSU.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+I am an aspiring software developer and valedictorian of Penn State Wilkes-Barre's 2020 class.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I have experiencve in object-oriented programming, web design, database design and management, game design, and software integration.
 
 ### Markdown
 
