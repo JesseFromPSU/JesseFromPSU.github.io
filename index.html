@@ -15,9 +15,11 @@
 
 		<!-- Header -->
 			<div id="header">
-				<!-- <span class="image icon solid fa-code"></span> -->
+				 <span class="image icon solid center fa-file-code"></span>
+				 <br />
+				 <br />
 				<h1>Hi. This is Jesse.</h1>
-				<p>A 1developer, ambitious leader, diligent worker, and Valedictorian of Penn State's 2020 Wilkes-Barre class
+				<p>A developer, ambitious leader, diligent worker, and Valedictorian of Penn State's 2020 Wilkes-Barre class
 				<br />
 				<a href="/files/js_resume.docx" download>Click HERE to downloand my resume</a>
 				<br />
@@ -42,24 +44,24 @@
 
 				<div class="box alt container">
 					<section class="feature left">
-						<a href="#" class="image icon solid fa-signal"><img src="images/pic01.jpg" alt="" /></a>
+						<a href="#" class="image icon solid fa-hdd"><img src="images/pic01.jpg" alt="" /></a>
 						<div class="content">
 							<h3>Knowledgeable</h3>
-							<p>Involvement with object-oriented programming, B2B integration, project management, and more</p>
+							<p>Involvement with object-oriented programming, B2B integration, project management, game development and more</p>
 						</div>
 					</section>
 					<section class="feature right">
 						<a href="#" class="image icon solid fa-code"><img src="images/pic02.jpg" alt="" /></a>
 						<div class="content">
 							<h3>Rich Experience</h3>
-							<p>Experienced in a variey of programming languages and development software, and quickly able to learn more to join any team</p>
+							<p>Experienced in a variety of programming languages and development software, and quickly able to learn more to join any team</p>
 						</div>
 					</section>
 					<section class="feature left">
-						<a href="#" class="image icon solid fa-mobile-alt"><img src="images/pic03.jpg" alt="" /></a>
+						<a href="#" class="image icon solid fa-gem"><img src="images/pic03.jpg" alt="" /></a>
 						<div class="content">
-							<h3>The Third Thing</h3>
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
+							<h3>Enhanced Skillset</h3>
+							<p>Excellent communication skills, attention to detail, a self-driven attitude and being adaptive to change creates the perfect toolbox for this team member</p>
 						</div>
 					</section>
 				</div>
@@ -208,11 +210,22 @@
 				-->
 
 				<footer class="major container medium">
-					<h3>Get shady with science</h3>
-					<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p>
+					<h3>Get in touch</h3>
+					<p>Excited to add Jesse to your team? Click below for information to get in touch!</p>
 					<ul class="actions special">
-						<li><a href="#" class="button">Join our crew</a></li>
+						<li><a href="#" class="button" onclick="contactInfo()">Contact Info</a></li>
 					</ul>
+					<script>
+					function contactInfo() {
+					  var txt;
+					  if (confirm("jesse.steltz@gmail.com | 570-899-4929")) {
+						txt = "You pressed OK!";
+					  } else {
+						txt = "You pressed Cancel!";
+					  }
+					  document.getElementById("demo").innerHTML = txt;
+					}
+					</script>
 				</footer>
 
 			</div>
@@ -228,7 +241,7 @@
 					<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor
 					orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p>
 
-					<form method="post" action="#">
+					<form method="post" action=”jesse.steltz@gmail.com>
 						<div class="row">
 							<div class="col-6 col-12-mobilep">
 								<input type="text" name="name" placeholder="Name" />
