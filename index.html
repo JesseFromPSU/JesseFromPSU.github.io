@@ -22,7 +22,11 @@
 				<h1>Hi. This is Jesse.</h1>
 				<p>A developer, ambitious leader, diligent worker, and Valedictorian of Penn State's 2020 Wilkes-Barre class
 				<br />
-				<a href="/files/js_resume.docx" download>Click HERE to downloand my resume</a>
+				<!-- <a href="/files/js_resume.docx" download>Click HERE to downloand my resume</a>
+				<a href="/files/js_resume.docx" class="button" onclick="contactInfo()">Download My Resume</a> -->
+				<form method="get" action="/files/js_resume.docx">
+					<button type="submit">Download My Resume</button>
+				</form>
 				<br />
 				<!-- and released for free under the <a href="http://html5up.net/license">Creative Commons license</a>. -->
 				</p>
@@ -212,7 +216,7 @@
 					<h3>Get in touch</h3>
 					<p>Excited to add Jesse to your team? Click below for information to get in touch!</p>
 					<ul class="actions special">
-						<li><a href="#" class="button" onclick="contactInfo()">Contact Info</a></li>
+						<li><a class="button" onclick="contactInfo()">Contact Info</a></li>
 					</ul>
 					<script>
 					function contactInfo() {
